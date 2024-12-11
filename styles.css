@@ -72,6 +72,12 @@ a.button3:hover {}
 	z-index: 2;
 }
 
+.pr {
+	font-family: "Montserrat";
+	color: black;
+	margin: 10%;
+}
+
 .center-text {
 	font-family: "Montserrat";
 	color: #D0F7F6;

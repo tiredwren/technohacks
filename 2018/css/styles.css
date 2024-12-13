@@ -134,6 +134,7 @@ address > h2 {
 .white-button:focus {
     outline: 0;
 }
+
 .round-button:hover {
     cursor: pointer;
     text-decoration: none;
@@ -293,6 +294,28 @@ img#mobile-schedule-image {
     height: auto;
     top: 20px;
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.styled-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
 @keyframes blink{
     0% {
         -moz-filter: none;

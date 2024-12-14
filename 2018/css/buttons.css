@@ -71,4 +71,24 @@
   .social-button:focus {
     opacity: .85; }
 
+  .back-button {
+    background: none;
+    border: none;
+    color: rgb(39, 113, 162);
+    font-size: 24px; 
+    cursor: pointer; 
+    padding: 0;
+    margin: 0;
+    transition: color 0.3s;
+  }
+
+  .back-button:hover {
+    color: green;
+  }
+
+  .back-button:active {
+    color: darkgreen;
+  }
+
+
 /*# sourceMappingURL=buttons.css.map */

@@ -314,6 +314,7 @@ img#mobile-schedule-image {
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 .styled-button:hover {

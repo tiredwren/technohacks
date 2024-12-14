@@ -83,11 +83,11 @@
   }
 
   .back-button:hover {
-    color: green;
+    color: #4CAF50;
   }
 
   .back-button:active {
-    color: darkgreen;
+    color: #427b43;
   }
 
 

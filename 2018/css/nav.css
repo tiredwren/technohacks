@@ -62,9 +62,10 @@
     height: 75px;
 }
 .nav-item:hover {
-    background-color: #5481be;
+    background-color: #1e110a;
     cursor: pointer;
     text-decoration: none;
+    transition: 0.3s ease;
 }
 
 .nav-item > a {

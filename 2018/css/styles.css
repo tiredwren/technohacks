@@ -303,17 +303,50 @@ img#mobile-schedule-image {
 
 .styled-button {
     display: block;
-    margin: 0 auto;
-    background-color: #4CAF50;
+    background-color: #8CB936;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
+    font-family: 'Inconsolata', monospace;
     font-size: 16px;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
+}
+
+.styled-button:hover {
+    display: block;
+    background-color: #3b6d22;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 auto 20px;
+    transition: 0.3s ease;
+}
+
+.arrow-button {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: #4CAF50; /* Arrow color */
+    border: none;
+    cursor: pointer;
+    outline: none;
+    clip-path: polygon(0 0, 75% 0, 75% 50%, 100% 50%, 75% 50%, 75% 100%, 0 100%); /* Creates arrow shape */
+    transition: background-color 0.3s ease;
+}
+
+.arrow-button:hover {
+    background-color: #45a049;
 }
 
 @keyframes blink{

@@ -347,6 +347,14 @@ img#mobile-schedule-image {
 
 .arrow-button:hover {
     background-color: #45a049;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.styled-button:hover {
+    text-decoration: none;
+    background-color: #427b43;
+
 }
 
 @keyframes blink{

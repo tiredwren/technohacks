@@ -112,6 +112,9 @@ $("#clickSponsors").click(function(){
 $("#clickFAQ").click(function(){
   $("#FAQ").velocity("scroll", {offset: -150, duration: duration, easing: "easeInOutCubic"});
 });
+$("#clickOrganizers").click(function(){
+  $("#organizers").velocity("scroll", {offset: -150, duration: duration, easing: "easeInOutCubic"});
+});
 var closeTimeout;
 /* Apply button */
 

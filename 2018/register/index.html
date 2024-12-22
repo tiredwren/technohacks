@@ -14,22 +14,28 @@
 
         .arrow-button {
             position: relative;
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             margin: 20px;
             background: none;
             color: #46bb4a;
             font-family: sans-serif;
-            font-size: 50px; 
-            text-align: center;
-            line-height: 1; 
+            font-size: 50px;
             border: none;
             cursor: pointer;
             outline: none;
-            transition: color 0.3s ease; 
+            transition: color 0.3s ease;
         }
 
         .arrow-button:hover {
             color: #1c7422;
+        }
+
+        .arrow-button svg {
+            width: 40px;
+            height: 40px;
+            stroke: currentColor; /* Ensures SVG inherits button color */
         }
     </style>
 </head>
@@ -37,7 +43,7 @@
     <!-- Back Button -->
     <a href="../index.html" aria-label="Go back to home">
         <button class="arrow-button">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#46bb4a" class="w-8 h-8">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"></path>
             </svg>
         </button>

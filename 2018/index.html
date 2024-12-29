@@ -3,8 +3,8 @@
 <head>
   <title>TechnoHacks | February 2025</title>
 
-  <!-- Meta Information -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta Information-->
+  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0, maximum-scale=1.0">
   <meta name="description" content="TechnoHacks is Skyline's annual hackathon for students, run by students.">
   <meta name="keywords" content="TechnoHacks, social good, tech, hackathon">
   <meta name="author" content="TechnoHacks">
@@ -13,195 +13,206 @@
   <meta property="og:description" content="TechnoHacks is Skyline's annual hackathon for students, run by students.">
   <meta property="og:url" content="http://technohacks.org">
 
-  <!-- External libraries -->
+
+  <!-- External libraries-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/node-waves/0.7.5/waves.min.css">
 
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="img/th_logo.png" sizes="16x16">
-  <link rel="icon" type="image/png" href="img/th_logo.png" sizes="32x32">
+  <!--Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="2017/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="img/th logo.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="img/th logo.png" sizes="32x32">
   <link rel="manifest" href="img/favicon/manifest.json">
-  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="mask-icon" href="2017/favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- User Stylesheets -->
+  <!-- User Stlesheets -->
   <link rel="stylesheet" type="text/css" href="css/styles.css?v=10">
   <link rel="stylesheet" type="text/css" href="css/mobile.css?v=8">
-
-  <style>
-    /* General Styling */
-    body {
-      font-family: 'Inconsolata', monospace;
-    }
-    .navbar {
-      background-color: #333;
-      color: white;
-    }
-    .navbar-brand {
-      color: white;
-      font-size: 1.5em;
-    }
-    .nav-link {
-      color: white;
-      font-size: 1em;
-    }
-    .styled-button {
-      background-color: #28a745;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    .styled-button:hover {
-      background-color: #218838;
-    }
-    
-    /* Mobile-Specific Styles */
-    @media (max-width: 768px) {
-      .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-      .navbar-nav {
-        flex-direction: column;
-        width: 100%;
-      }
-      .nav-item {
-        width: 100%;
-        text-align: left;
-      }
-      #subheading {
-        font-size: 1.2em;
-      }
-      #register-btn {
-        display: block;
-        width: 100%;
-        margin: 20px auto;
-        text-align: center;
-      }
-    }
-  </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md">
-  <a class="navbar-brand" href="#">TECHNO<strong>HACKS</strong></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-      <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
-      <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-      <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
-      <li class="nav-item"><a class="nav-link" href="#sponsors">Sponsors</a></li>
-    </ul>
+<div id="rearNav"></div>
+<div id="brownNav"></div>
+<nav id="nav" class="navbar navbar-expand-md justify-content-between">
+  <h1 id="nav-title" class="navbar-brand">TECHNO<strong style="font-family: 'FuturaStd-Heavy'">HACKS</strong></h1>
+  <div class="navbar-nav justify-content-center">
+    <div class="nav-item" id="clickAbout"> <a class="nav-link"> About </a> </div>
+    <div class="nav-item" id="clickSchedule"> <a class="nav-link"> Schedule </a> </div>
+    <div class="nav-item" id="clickFAQ"> <a class="nav-link"> FAQ </a> </div>
+    <div class="nav-item" id="clickOrganizers"> <a class="nav-link"> Organizers </a> </div>
+    <div class="nav-item" id="clickSponsors"> <a class="nav-link"> Sponsors </a> </div>
+    
   </div>
+
 </nav>
 
+
+<!-- Main Content Container -->
 <div id="main">
-  <section style="text-align: center; padding: 20px;">
-    <img id="logo" class="img-fluid" src="img/th_logo.png" alt="TechnoHacks Logo">
-    <h2 id="subheading">// code for the world</h2>
-    <a href="register/index.html" id="register-btn">
-      <button type="button" class="styled-button">Register Now!</button>
-    </a>
+  <section style="position: relative;">
+    <img id="sky" src="img/sky.png">
+    <img id="clouds" src="img/clouds.png">
+    <img id="mountains" src="img/mountains.png">
+    <img id="backhills" class="img-absolute" src="img/backhills.png">
+    <img id="logo" class="img-fluid img-absolute" src="img/th logo.png">
+    <h2 id="subheading">// code for the world
+      <a href="register/index.html">
+        <button type="button" class="styled-button"  style="margin-top: 30px;">Register Now!</button>
+      </a>
+    </h2>
+    <img id="front-grass" class="img-absolute" src="img/front-grass.png">
+    <img id="grass" class="img-absolute" src="img/grass.svg">
   </section>
 
-  <div id="about" class="container-fluid">
-    <div class="row">
-      <h1 class="col-md-4 text-center">What is TechnoHacks?</h1>
-      <div class="col-md-7">
-        <p>
-          TechnoHacks is Skyline High School's upcoming weekend-long invention marathon designed to provide students an opportunity to create impactful projects, learn coding, and win prizes.
-        </p>
-        <p>
-          This year's theme is <strong>sustainability</strong>. Students will tackle the United Nation's 17 Sustainability Goals to build solutions for a better world.
-        </p>
+
+  <div>
+    <div id="about-text" class="container-fluid">
+      <div class="row">
+      </div>
+      <div class="row">
+        <h1 class="col-md-4 text-center">What is TechnoHacks?</h1>
+        <div class="col-md-7">
+          <p>
+            TechnoHacks is Skyline High School's upcoming weekend-long invention marathon
+            designed to provide middle and high school students from the Issaquah School
+            District an opportunity to create impactful projects, learn professional coding
+            and business skills, and win cool prizes.
+          </p>
+          <p>
+            The theme for this year's hackathon is <strong>sustainability</strong>. Students
+            will create projects addressing one of the United Nation's 17 Sustainability Goals
+            to contribute to a better world for everyone.
+          </p>
+        </div>
       </div>
     </div>
   </div>
 
-  <section id="faq" class="container-fluid">
-    <h1>Frequently Asked Questions</h1>
-    <div class="row">
-      <div class="col-md-6">
-        <h2>What is a hackathon?</h2>
-        <p>
-          A hackathon is where you turn your crazy ideas into real stuff. You'll learn how to design or code an app and pitch your idea to judges!
-        </p>
-        <h2>How much does it cost?</h2>
-        <p>
-          TechnoHacks is completely free! Snacks and caffeine will be provided. Meals are not included, so plan accordingly.
-        </p>
-      </div>
-      <div class="col-md-6">
-        <h2>Who can attend?</h2>
-        <p>
-          Open to all Issaquah and Lake Washington School District students aged 13 and up. Workshops will guide newcomers in ideation and coding.
-        </p>
-        <h2>Why focus on sustainability?</h2>
-        <p>
-          Inspired by Technovation, TechnoHacks encourages projects that align with the UN's 17 Sustainability Goals, fostering innovation for social good.
-        </p>
-      </div>
-    </div>
+  <object id="soil" type="image/svg+xml" data="img/soil.svg"></object>
+  <div id="mobile-schedule">
+    <img id="mobile-schedule-image" class="img-absolute" src="img/schedule-mobile-final.png">
+  </div>
+  <section>
+    <img id="cave1" class="img-absolute cave" src="img/front-cave.png">
+    <img id="cave2" class="img-absolute cave caveBackground" src="img/cave-layer-2.png">
+    <img id="cave3" class="img-absolute cave caveBackground" src="img/cave-layer-3.png">
+    <img id="cave4" class="img-absolute cave caveBackground" src="img/back-cave-4.png">
+    <div id="lantern"></div>
+    <img id="lantern-img" class="img-absolute" src="img/lantern.png">
+    <a id="close" class="hid"><i class="fa fa-times" style="font-size: 2.5em" aria-hidden="true"></i></a>
+    <h1 id="schedule">Schedule</h1>
+    <img id="schedule-image" class="img-absolute" src="img/schedule.png">
   </section>
   <section>
-  <div class="row justify-content-center">
-    <div id="organizers" class="container-fluid" style="padding: 50px;">
-      <h1>Organizers</h1>
+    <div id="FAQ" class="container-fluid">
+      <h1>Frequently Asked Questions</h1>
       <br>
       <div class="row">
         <div class="col-lg-4">
-          <h2>Sneha Moudgalya</h2>
+          <h2>What is a hackathon?</h2>
           <p>
-            Lead Organizer
+            A hackathon is where you turn your crazy ideas into real stuff. You'll learn how to 
+            design or code an app and pitch your idea to judges!
+            Students from all across the Issaquah and Lake Washington area will gather for 20 
+            hours of innovation and learning. You take care of the building, we take care of you.
           </p>
-          <h2>Suruchi Dokka</h2>
-          <p>Director of Communications</p>
-          <h2>Riya Chopade</h2>
-          <p>Finance Lead</p>
+          <p>
+            We will be following MLH's <a class="no-decorate" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">Code Of Conduct</a>.
+          </p>
+          <h2>How much does it cost?</h2>
+          <p>
+            TechnoHacks is completely free! Snacks and caffine will be provided, but meals
+            will not; there are several places to eat nearby, so bring some cash or lunch from
+            home if you think you'll need it!
+          </p>
+          <h2>How many people can be in a team?</h2>
+          <p>
+            Four students are allowed per team. You can register with your team or find one through Discord or the a team mixer at the start of the hackathon.
+          </p>
+          <h2>Where is TechnoHacks?</h2>
+          <p>
+            TechnoHacks will be held at <a href="https://maps.app.goo.gl/7pKb5RyLTZoJXPzQ9" target="_blank">Skyline High School</a>.
+          </p>
         </div>
         <div class="col-lg-4">
-          <h2>Muntasir Nahiyan</h2>
+          <h2>What can I build?</h2>
           <p>
-            Website Design
+            You can build whatever you'd like, whether its a web app, mobile app, hardware hack, or just a prototype of your idea.
+            We will not be providing any hardware materials, so if you're planning on going that route,
+            be sure to bring your own tools!
+            Any project under one of the UN's 17 Goals is recommended.
           </p>
-          <h2>Haowen Zhang</h2>
+          <h2>Who can attend?</h2>
           <p>
-            Graphic Design
+            TechnoHacks is open to all Issaquah and Lake Washington School District students!
+            Don't worry if you're completely new to hackathons; we will be holding workshops where students can learn how to
+            get started with ideation, web/app development, code collaboration, and more. Stay tuned for more information about workshops in January!
+          </p>
         </div>
         <div class="col-lg-4">
-          <h2>Tishya Sudahar</h2>
+          <h2>Why the UN's 17 Goals for Sustainability?</h2>
           <p>
-            Marketing Lead
-          </p>
-          <h2>Shyann Stanley</h2>
-          <p>
-            Social Media
-          </p>
-          <h2>Kruthi Sathyanarayana</h2>
-          <p>
-            Outreach
+            TechnoHacks was inspired by Technovation, an international app development competition that
+            encourages participants to create solutions for one of the UN's Sustainable Development Goals.
+            We believe that creating with the goals in mind helps us build projects that help others,
+            which is what tech is all about.
           </p>
         </div>
       </div>
-  </div>
-</section>
-<footer class="container-fluid px-0"><h1 class="sponsor-heading">SPONSORS</h1>
-  <div class="row justify-content-center align-items-center px-5"><a class="col-lg-10 col-xs-10" href="https://isfdn.org/"><img src="img/logos/isf-logo.png"></a>
-    <address class="d-flex flex-sm-row justify-content-start flex-column">
-      <h2>Contact us: <a class="no-decorate" href="mailto:shstechnovation@gmail.com">shstechnovation@gmail.com</a></h2>
-      <div class="social-buttons ml-0 ml-xs-auto align-self-center">
-        <a href="https://www.instagram.com/_technohacks/" class="social-button"><i class="fa fa-instagram"></i></a>
+      <div class="row justify-content-center">
+        <div id="organizers" class="container-fluid" style="padding: 50px;">
+          <h1>Organizers</h1>
+          <br>
+          <div class="row">
+            <div class="col-lg-4">
+              <h2>Sneha Moudgalya</h2>
+              <p>
+                Lead Organizer
+              </p>
+              <h2>Suruchi Dokka</h2>
+              <p>Director of Communications</p>
+              <h2>Riya Chopade</h2>
+              <p>Finance Lead</p>
+            </div>
+            <div class="col-lg-4">
+              <h2>Muntasir Nahiyan</h2>
+              <p>
+                Website Design
+              </p>
+              <h2>Haowen Zhang</h2>
+              <p>
+                Graphic Design
+            </div>
+            <div class="col-lg-4">
+              <h2>Tishya Sudahar</h2>
+              <p>
+                Marketing Lead
+              </p>
+              <h2>Shyann Stanley</h2>
+              <p>
+                Social Media
+              </p>
+              <h2>Kruthi Sathyanarayana</h2>
+              <p>
+                Outreach
+              </p>
+            </div>
+          </div>
       </div>
-    </address>
-  </footer>
+      <footer class="container-fluid px-0"><h1 class="sponsor-heading">SPONSORS</h1><div class="row justify-content-center align-items-center px-5"><a class="col-lg-10 col-xs-10" href="https://isfdn.org/"><img src="img/logos/isf-logo.png"></a>
+      <br>
+      <address class="d-flex flex-sm-row justify-content-start flex-column">
+        <h2>Contact us: <a class="no-decorate" href="mailto:shstechnovation@gmail.com">shstechnovation@gmail.com</a></h2>
+        <div class="social-buttons ml-0 ml-xs-auto align-self-center">
+          <a href="https://www.instagram.com/_technohacks/" class="social-button"><i class="fa fa-instagram"></i></a>
+        </div>
+      </address>
+      <br><br>
+      </footer>
+    </div></section>
 </div>
 
 <script src="https://use.fontawesome.com/f85de223f0.js"></script>

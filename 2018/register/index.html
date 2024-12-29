@@ -10,18 +10,23 @@
         body {
             background-color: #7C9E3D;
             margin: 0;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
         }
 
         .arrow-button {
             position: relative;
-            display: inline-flex;
+            display: flex;
             align-items: center;
             justify-content: center;
-            margin: 20px;
+            margin: 20px auto;
             background: none;
             color: #ffffff;
-            font-family: sans-serif;
-            font-size: 50px;
+            font-size: 24px;
             border: none;
             cursor: pointer;
             outline: none;
@@ -33,9 +38,32 @@
         }
 
         .arrow-button svg {
-            width: 40px;
-            height: 40px;
-            stroke: currentColor; /* Ensures SVG inherits button color */
+            width: 24px;
+            height: 24px;
+            stroke: currentColor;
+        }
+
+        #formContainer {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 600px) {
+            .arrow-button {
+                font-size: 18px;
+            }
+
+            .arrow-button svg {
+                width: 20px;
+                height: 20px;
+            }
+
+            #formContainer {
+                padding: 10px;
+            }
         }
     </style>
 </head>

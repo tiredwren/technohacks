@@ -149,9 +149,11 @@
     #about-text button:not(#apply-button) {
         display: none;
     }
-    /* h2#subheading {
-      display: none;
-    } */
+    h2#subheading {
+      margin-bottom: 5%;
+      line-height: 2%;
+      height: auto;
+    }
     section:first-child {
         margin-top: 0px;
         height: 500px;
@@ -230,7 +232,7 @@
         padding-right: 15px;
         padding-left: 15px;
         margin-top: 15px;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
     #main > div:first-of-type {
         position: static;

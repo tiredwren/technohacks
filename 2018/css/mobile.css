@@ -114,9 +114,9 @@
     #close {
         right: 20px;
     }
-    /* #nav, #brownNav, #rearNav {
+    #nav, #brownNav, #rearNav {
         display: none;
-    } */
+    }
     /* #lantern, #lantern-img {
         display: none;
     } */
@@ -149,9 +149,9 @@
     #about-text button:not(#apply-button) {
         display: none;
     }
-    h2#subheading {
+    /* h2#subheading {
       display: none;
-    }
+    } */
     section:first-child {
         margin-top: 0px;
         height: 500px;

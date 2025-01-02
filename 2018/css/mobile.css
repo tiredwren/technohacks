@@ -114,19 +114,19 @@
     #close {
         right: 20px;
     }
-    #nav, #brownNav, #rearNav {
+    /* #nav, #brownNav, #rearNav {
         display: none;
-    }
-    #lantern, #lantern-img {
+    } */
+    /* #lantern, #lantern-img {
         display: none;
-    }
+    } */
     #about-text h1 {
         margin-top: 20px;
     }
     #apply-button {
         display: block;
         color: white !important;
-        background: linear-gradient(to right, #494a86, #244a53);
+        background: #912323;
         border-bottom: 3px solid #727cde;
         border-right: 6px solid #a3acff;
         border-top: none;

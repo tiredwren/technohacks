@@ -150,20 +150,15 @@
         display: none;
     }
     h2#subheading {
-        margin-top: 50%;
-      margin-bottom: 5%;
-      line-height: 2%;
-      height: auto;
+        padding-top: 50%;
+        margin-bottom: 5%;
+        line-height: 2%;
+        height: auto;
     }
     section:first-child {
         margin-top: 0px;
         height: 500px;
         margin-bottom: 0;
-    }
-    #mlh-trust-badge {
-      margin-top: 0;
-      position: absolute;
-      content: url("https://s3.amazonaws.com/logged-assets/trust-badge/2018/blue.svg")
     }
     #clouds, #sky {
       position: absolute;
@@ -227,7 +222,7 @@
         padding-bottom: 30px;
         height: auto;
         padding-top: 20px;
-        margin-bottom: 0;
+        margin-bottom: 15px;
     }
     #about-text p {
         padding-right: 15px;
